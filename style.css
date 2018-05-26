@@ -1,0 +1,153 @@
+div{
+    overflow: hidden;
+}
+
+.jumbotron{
+    color: #ffffff;
+    background-image: url(back.png);
+    background-size: cover;
+    background-position:bottom;
+    height: 290px;  
+    text-align: center;
+}
+
+.jumbo{
+    width: 300px;
+}
+
+.income,.expense{
+    padding-top: 5px; 
+    background-color: #f77979;
+    height: 35px;
+    text-align: left;
+}
+
+.income{
+ background-color: aqua;   
+}
+
+.incomeTxt,.expenseTxt{
+   color: #000000;
+    width: 70px;
+    margin-left: 3px;
+}
+
+.incomeV,.expenseV{
+    width: 200px;
+    margin-right: 2px;
+}
+
+.totalIncome,.totalExpense{
+    width: 150px;
+    text-align: right;
+}
+
+.incomePer,.totalExpensePer{
+    width: 30px;
+    font-size: 10px;
+    padding-top: 4px;
+}
+
+.inputLine{
+    width: 550px;
+}
+
+.select{
+    border-style: none;
+    width:35px;
+    height: 29px;
+}
+.desc{
+    width: 220px;
+    border-style: none;
+}
+
+.value{
+    width: 90px;
+    border-style: none;
+}
+
+.button{
+    border-style: none;
+    height: 30px;    
+}
+
+.okButton{
+    font-size: 30px;
+    color: #60f2c1;
+    display: contents;
+}
+
+.box1{
+
+}
+
+.incomeSection,.expenseSection{
+    max-width:400px;
+}
+
+.cancelI,.cancelE{
+    border-style: none;
+    font-size: 5px;
+    width: 20px;
+}
+
+.cancelII,.cancelIE{
+    font-size: 15px;
+    color: #60f2c1;
+    display: contents;
+}
+
+.cancelIE{
+    color: #f77979;
+}
+
+
+.expenseDesc{
+    width:190px;
+}
+.incomeDesc{
+    width:200px;
+    margin-left: 15px;
+}
+
+.incomeValue,.expenseValue{
+    width: 150px;
+}
+
+.incomeValue{
+
+    color: #60f2c1;
+}
+
+.expenseValue{
+    color: #f77979;
+}
+
+.percnt{
+    font-size: 12px;
+    width: 25px;
+    padding-top: 4px;
+    color: #f77979;
+}
+
+.incomeHead{
+    color: #60f2c1;
+}
+
+.expenseHead{
+    color: #f77979;
+}
+
+.select:hover,.desc:hover,.value:hover{
+    border: solid #60f2c1 1px;
+    border-radius: 5px;
+}
+
+.child:hover{
+    transform: translateX(-13px);
+}
+
+.child{
+    transition: transform 0.7s;
+}
